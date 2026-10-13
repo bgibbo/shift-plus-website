@@ -1,0 +1,32 @@
+[
+  {
+    "asset": "calendar.webp",
+    "source": "E:\\Projects\\ShiftPlus\\Marketing\\Instagram-Reel-Work-Alarms-v1\\frames\\final-v2-start.png",
+    "source_sha256": "134a1e6254da7580759c6d5c37d5a18cf02130822ff3659dd7b075f66dab1ab6",
+    "treatment": "WebP compression only; full frame retained",
+    "dimensions": [
+      1080,
+      2400
+    ]
+  },
+  {
+    "asset": "alarms.webp",
+    "source": "E:\\Projects\\ShiftPlus\\Marketing\\Instagram-Reel-Work-Alarms-v1\\screenshots\\ShiftPlus-Work-Alarms-both-enabled.png",
+    "source_sha256": "8b92eea65ffa4e8df1c86dcf36dcf5d03b78d3e99cf9bd8544bfe6e1251dc9ac",
+    "treatment": "WebP compression only; full frame retained",
+    "dimensions": [
+      1080,
+      2400
+    ]
+  },
+  {
+    "asset": "alarm-centre.webp",
+    "source": "E:\\Projects\\ShiftPlus\\Marketing\\Instagram-Reel-Work-Alarms-v1\\screenshots\\ShiftPlus-Work-Alarms-Bell-List-Mixed.png",
+    "source_sha256": "50689af9a0d55a41e75e644045a6305bfbc03eca92148f120dbe80ab586ade90",
+    "treatment": "WebP compression only; full frame retained",
+    "dimensions": [
+      1080,
+      2400
+    ]
+  }
+]
