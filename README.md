@@ -21,7 +21,7 @@ python -m playwright install chromium
 python scripts/browser_test.py
 ```
 
-The browser suite expects the preview server above. It checks all six pages at 1440, 768, 390 and 320 pixels; local image loads; horizontal overflow; mobile navigation; all walkthrough states; screenshot enlargement and Escape; FAQ matches and empty states; keyboard skip link; and no-JavaScript guide content. Screenshots and JSON results appear in `test-results/` (ignored by Git).
+The browser suite expects the preview server above. It checks all seven pages at 1440, 768, 390 and 320 pixels; local image loads; horizontal overflow; mobile navigation; all walkthrough states; screenshot enlargement and Escape; FAQ matches and empty states; keyboard skip link; and no-JavaScript guide content. Screenshots and JSON results appear in `test-results/` (ignored by Git).
 
 ## Structure
 
@@ -29,7 +29,8 @@ The browser suite expects the preview server above. It checks all six pages at 1
 - `site/guide.html`: onboarding and feature usage.
 - `site/home-assistant.html`: requirements, HACS pairing, sync semantics and troubleshooting.
 - `site/support.html`: searchable FAQs and verified support contact.
-- `site/privacy.html`: documented behaviour, clearly identified as an overview.
+- `site/terms.html`: Terms of Use and Work Alarm limitations.
+- `site/privacy.html`: app, acknowledgement and website privacy information.
 - `site/404.html`: recovery/help page.
 - `CONTENT-SOURCES.md`: evidence and launch TODOs.
 - `ASSET-PROVENANCE.json`: authentic screenshot origins and hashes.

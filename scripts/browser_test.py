@@ -19,7 +19,7 @@ with sync_playwright() as p:
  page.on('response',lambda r:errors.append(f'HTTP {r.status}: {r.url}') if r.status>=400 else None)
  for width in [1440,768,390,320]:
   page.set_viewport_size({'width':width,'height':900})
-  for route in ['index.html','guide.html','home-assistant.html','support.html','privacy.html','404.html']:
+  for route in ['index.html','guide.html','home-assistant.html','support.html','terms.html','privacy.html','404.html']:
    page.goto(base+route);page.wait_for_load_state('networkidle')
    assert page.locator('h1').count()==1
    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'),f'Overflow {width} {route}'
