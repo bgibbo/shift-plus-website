@@ -39,6 +39,7 @@ Maintain brand text as **Shift +**. Do not recreate screenshots or introduce uns
 
 ## Current release state
 
-Private repository: https://github.com/bgibbo/shift-plus-website
+Public repository: https://github.com/bgibbo/shift-plus-website
 
-Public publishing, Pages activation, live Google Sites edits and DNS changes have deliberately not been performed. The manual Pages workflow is configured but requires authorization and repository Pages settings before it can deploy. A push only runs checks.
+Public launch was authorized on 14 October 2026. GitHub Pages is enabled and deployment succeeded with custom domain www.shiftplus.plus. The owner will add the DNS records in DEPLOYMENT.md. Public DNS, certificate provisioning and HTTPS verification remain pending. A push only runs checks; publishing uses the manual workflow.
+
