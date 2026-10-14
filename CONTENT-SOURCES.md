@@ -29,7 +29,13 @@ Commit `08690849ebb19a59c24b539be4c8fe0f74c2b833`, default branch `main`.
 
 `E:\Projects\ShiftPlus\Marketing\Instagram-Reel-Work-Alarms-v1\README.txt` records capture from the real Android release package at version 6.0.0 build 77. Three full-frame captures are reused with WebP compression only; no screen contents are altered. The calendar is a frame from the genuine recording, not a fabricated mockup. Screenshot provenance and SHA-256 hashes are in `ASSET-PROVENANCE.json`. No live pairing QR, personal notes, access tokens or credentials are included. Captured roster examples are retained exactly as in existing marketing materials.
 
-## Launch TODOs / limitations
+## Launch verification — 14 October 2026
+
+- The official Google Play listing opened successfully in the Ireland browser context as Shift + by GIBBO, with an install control and device availability. Availability remains device/region dependent.
+- Its App support section links to https://sites.google.com/view/dunmore-east-holiday-rental/privacy-policy. The page explicitly identifies Shift Plus and an effective date of 27 July 2026. A direct link is now present on the website privacy page. This verifies the published policy source, not legal completeness or coverage of newer features. The policy does not explicitly describe Home Assistant or calendar sync; the website retains its sourced feature overview.
+- The owner authorized public website launch, repository visibility if needed, GitHub Pages, and www.shiftplus.plus on 14 October 2026. The owner will make DNS changes personally.
+
+## Historical pre-launch notes (13 October 2026)
 
 1. **Complete app privacy policy:** no complete developer-approved policy was found in the inspected app/marketing materials. The site clearly provides a documented-behaviour overview. Obtain/verify the authoritative Play policy link and add it before public launch; do not invent legal retention or deletion promises.
 2. **Play availability:** the supplied Google Play URL is used exactly. The listing could not be retrieved through web tooling; public install eligibility, store wording and price were not independently verified. No price or universal availability claim is made.
