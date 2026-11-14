@@ -41,12 +41,22 @@
   },
   {
     "asset": "shift-plus-promotional-film.mp4",
-    "source": "E:\\Projects\\ShiftPlus\\Marketing\\Website-Promo-v1\\exports\\ShiftPlus-Promotional-Film-75s-1920x1080.mp4",
-    "source_sha256": "b250e274d7902f64be9038e6d8c2083e335d264f00040c7573e76a4952d54f58",
-    "treatment": "Original 75-second edit using approved promotional artwork, genuine sanitised Android captures/recording, a genuine sanitised Home Assistant capture, generated narration and an original synthetic ambient bed. Captions supplied separately as WebVTT.",
+    "source": "E:\\Projects\\ShiftPlus\\Marketing\\Website-Promo-v1\\exports-v2\\ShiftPlus-Promotional-Film-72s-1920x1080.mp4",
+    "source_sha256": "cbc55593f1fb80ca6cdeee29066179fbad4501a313db0d9000c61805a0023be0",
+    "treatment": "Original 72-second edit using approved promotional artwork, genuine sanitised Android captures/recordings, a genuine sanitised Home Assistant capture, generated narration and an original synthetic ambient bed. Captions supplied separately as WebVTT.",
     "dimensions": [
       1920,
       1080
+    ]
+  },
+  {
+    "asset": "home-assistant-logo.png",
+    "source": "https://www.home-assistant.io/images/favicon-192x192.png",
+    "source_sha256": "ba76b1f0bb94a4eb01f19e34507e099248cfd790c1c713e1e956394c2c5155e4",
+    "treatment": "Copied unchanged from the official Home Assistant website for an accurate integration reference.",
+    "dimensions": [
+      192,
+      192
     ]
   }
 ]
