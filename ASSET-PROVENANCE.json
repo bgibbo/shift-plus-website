@@ -28,5 +28,25 @@
       1080,
       2400
     ]
+  },
+  {
+    "asset": "shift-plus-workers.png",
+    "source": "C:\\Users\\gibbo\\Desktop\\Shiftplus\\GibboShift+4.png",
+    "source_sha256": "afb315b8973721393008dadbbdf34d7282285e90ba69a05e24fb8b327acee56",
+    "treatment": "Copied unchanged with developer approval as official Shift + promotional artwork; not presented as an app screenshot.",
+    "dimensions": [
+      1718,
+      911
+    ]
+  },
+  {
+    "asset": "shift-plus-promotional-film.mp4",
+    "source": "E:\\Projects\\ShiftPlus\\Marketing\\Website-Promo-v1\\exports\\ShiftPlus-Promotional-Film-75s-1920x1080.mp4",
+    "source_sha256": "b250e274d7902f64be9038e6d8c2083e335d264f00040c7573e76a4952d54f58",
+    "treatment": "Original 75-second edit using approved promotional artwork, genuine sanitised Android captures/recording, a genuine sanitised Home Assistant capture, generated narration and an original synthetic ambient bed. Captions supplied separately as WebVTT.",
+    "dimensions": [
+      1920,
+      1080
+    ]
   }
 ]

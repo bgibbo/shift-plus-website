@@ -35,6 +35,7 @@ The browser suite expects the preview server above. It checks all seven pages at
 - `CONTENT-SOURCES.md`: evidence and launch TODOs.
 - `ASSET-PROVENANCE.json`: authentic screenshot origins and hashes.
 - `DEPLOYMENT.md`: controlled public launch, Google Sites embed and domain choices.
+- `VIDEO-PRODUCTION-PACKAGE.md`: approved-capture storyboard and delivery brief for the main film and social edits.
 
 Maintain brand text as **Shift +**. Do not recreate screenshots or introduce unsupported features or prices. Keep relative page/asset links so project-path hosting works. Update content alongside app changes and rerun checks.
 

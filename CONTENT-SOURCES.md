@@ -4,7 +4,7 @@ Reviewed 13 October 2026. Local repositories were read only; their HEADs matched
 
 ## App: bgibbo/shiftplus
 
-Commit `56afefa7bdcd0d6cd537e3e48f109505985518ee` (release 6.0.0 build 77).
+Reviewed against the locally installed Shift + Android source at version `6.0.0+79`.
 
 | Website material | Source within app repository |
 | --- | --- |
@@ -21,9 +21,9 @@ Original raster icon is copied unchanged; favicon and touch icon are resized der
 
 ## Integration: bgibbo/shift-plus-home-assistant
 
-Commit `08690849ebb19a59c24b539be4c8fe0f74c2b833`, default branch `main`.
+Commit `819c4b61d10b9ad0ad822cb6c82813ffe3d45820` (public v5.1.3 release), default branch `main`.
 
-`README.md` verifies HA 2024.7+, HACS, Premium, custom repository setup, five-minute single-use QR, Android-initiated sync, local minute-by-minute recalculation, troubleshooting and issue tracker. `docs/security.md`, `docs/entities.md` and `docs/dashboard.md` are linked for further detail. The website does not claim household controls or prebuilt automation routines.
+`README.md` and `docs/installation.md` verify HA 2024.7+, Marketplace/HACS default-catalogue installation, Premium, five-minute single-use QR, Android-initiated sync, local minute-by-minute recalculation, troubleshooting and issue tracker. `docs/security.md`, `docs/entities.md` and `docs/dashboard.md` are linked for further detail. The website does not claim household controls or prebuilt automation routines.
 
 ## Genuine captures
 

@@ -39,6 +39,12 @@ with sync_playwright() as p:
  page.locator('.tour-visual .screenshot').click();assert page.locator('dialog').is_visible()
  page.keyboard.press('Escape');assert not page.locator('dialog').is_visible()
  checks.append('All walkthrough states, image dialog and Escape')
+ page.goto(base);video=page.locator('video');assert video.count()==1
+ assert video.locator('source').get_attribute('src')=='assets/shift-plus-promotional-film.mp4'
+ assert video.locator('track[kind="captions"]').get_attribute('src')=='assets/shift-plus-promotional-film.en.vtt'
+ page.wait_for_function('document.querySelector("video").readyState >= 1')
+ assert page.evaluate('document.querySelector("video").duration >= 60')
+ checks.append('Promotional video metadata, captions and duration')
  page.goto(base+'support.html');page.locator('#faq-search').fill('secure QR pairing');assert page.locator('.faq-list details:visible').count()==1
  page.locator('#faq-search').fill('zzzz-no-match');assert page.locator('#no-results').is_visible()
  page.locator('#faq-search').fill('');assert page.locator('.faq-list details:visible').count()==9
